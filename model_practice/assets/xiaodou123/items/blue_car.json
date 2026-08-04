@@ -1,0 +1,12 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "entries": [
+		{"threshold":0.0,"model":{"type":"model","model":"xiaodou123:blue_car"}},
+		{"threshold":1.0,"model":{"type":"model","model":"xiaodou123:blue_car_left"}},
+		{"threshold":2.0,"model":{"type":"model","model":"xiaodou123:blue_car_right"}}
+	],
+	"property":"custom_model_data"
+    }
+
+}
