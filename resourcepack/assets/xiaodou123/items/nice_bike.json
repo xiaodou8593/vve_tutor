@@ -1,0 +1,15 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "entries": [
+		{"threshold":0.0,"model":{"type":"model","model":"xiaodou123:nice_bike/nice_bike"}},
+		{"threshold":1.0,"model":{"type":"model","model":"xiaodou123:nice_bike/nice_bike_45"}},
+		{"threshold":2.0,"model":{"type":"model","model":"xiaodou123:nice_bike/nice_bike_q"}},
+		{"threshold":3.0,"model":{"type":"model","model":"xiaodou123:nice_bike/nice_bike_q_45"}},
+		{"threshold":4.0,"model":{"type":"model","model":"xiaodou123:nice_bike/nice_bike_e"}},
+		{"threshold":5.0,"model":{"type":"model","model":"xiaodou123:nice_bike/nice_bike_e_45"}}
+	],
+	"property":"custom_model_data"
+    }
+
+}
